@@ -7,11 +7,17 @@
 
 double exo1(double rayon)
 {
-	double aire;
+	double volume = 0.0;
+	volume = 4 / 3 * 3.14 * rayon * rayon * rayon;
 
-	aire = 3.14*rayon*rayon;
+	return volume;
+}
 
-		return aire;
+void exo2(short a, short b)
+{
+	short y;
+
+	y = a < b && !a;
 }
 
 
